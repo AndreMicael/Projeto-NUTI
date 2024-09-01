@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.LoadingContainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.loadingIcon {
+  width: 30px;
+  animation-name: loading;
+  animation-duration: 1s;
+  animation-iteration-count: infinite; 
+  animation-timing-function: linear; 
+}
+
+@keyframes loading {
+  from { 
+    transform: rotate(0deg); 
+  }
+  to { 
+    transform: rotate(360deg); 
+  }
+}
+
+.dashed {
+  border: 1px dashed red;
+}
