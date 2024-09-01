@@ -1,8 +1,13 @@
-# React + Vite
+# Projeto criado para procesos seletivo de estágio (Teste Prático)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Consumir a API do PNCP obtendo os contratos de determinado órgão informando o seu CNPJ e um período (data inicial e final).
+- Deve ser mostrado em uma página web:
+  1. As informações do órgão.
+  2. Todos os contratos do órgão que possuem data inicial de vigência dentro do período informado. Para cada contrato, deve ser informado: data de vigência inicial, data de vigência final, razão social do fornecedor, objeto do contrato e valor inicial do contrato.
+  3. O valor total dos contratos obtidos.
+- Insira as informações coletadas em um banco de dados.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Aplicativo criado utilizando React + Vite, Tailwind CSS e Toastify
+
+Inicialização: npm run dev
